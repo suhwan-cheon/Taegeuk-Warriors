@@ -13,6 +13,15 @@
 ### 웹 페이지 - JSP
 ### 테스트 코드 프레임 워크 - JUnit4
 
+
+## 애플리케이션 아키텍처
+![image](https://user-images.githubusercontent.com/52690419/126878004-406da9c5-7587-42cf-8c4f-983de8cc8dfb.png). 
+
+
+## 도메인 모델
+![image](https://user-images.githubusercontent.com/52690419/126872177-7a351e43-e3bd-4908-a88b-780307cec583.png)  
+
+
 ### 기능 요구사항
 - 사용자는 선수 개별 정보를 조회할 수 있다.
 - 사용자는 종목 별로 선수들을 조회할 수 있다.
