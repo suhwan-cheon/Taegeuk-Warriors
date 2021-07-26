@@ -1,0 +1,13 @@
+header {
+    height: 75px;
+    color: white;
+    background: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 75px 1rem 1rem;
+}

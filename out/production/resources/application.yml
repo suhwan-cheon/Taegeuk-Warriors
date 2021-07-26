@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/test
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create # none : 한 번 넣어두면 계속 쓸 수 있다.
+
+    properties:
+      hibernate:
+        #     show_sql: true
+        format_sql: true
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
